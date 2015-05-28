@@ -1,0 +1,51 @@
+/* Przyk³ad operacji na s³owach i ³añcuchach: */
+/* znaki1.c *
+/
+#include <stdio.h>
+#include <conio.h
+>
+#include <string.h
+>
+main (void)
+{
+char
+znak1,znak2,znak3; //deklaracja znaków
+char
+*slowo1; // *slowo2;
+char slowo2[20]
+;
+clrscr();
+// czyszczenie ekran
+u
+znak1='a';
+znak2=102; // znak w postaci kodu dziesiêtnego ASCII 
+–
+litera 
+f
+slowo1="Imie"; // wpisujemy w³asne imi
+ê
+printf("
+Podaj znak3: "); scanf("%c",&znak3); // podajemy jakiœ zna
+k
+printf("
+\
+nPodaj slowo2: "); scanf("%s",slowo2); // wpisujemy s³ow
+o
+printf("
+\
+nZmienne zawieraja znaki: ")
+;
+printf("znak1 (a), znak2 (102), znak3 (wprowadzony): %c %c %c
+",znak1,znak2,znak
+3)
+;
+printf("
+\
+noraz slowa: ")
+;
+printf("slowo1, slowo2: %s %s
+",slowo1, slowo2)
+;
+getch();
+return 0 ;
+}
