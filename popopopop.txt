@@ -1,0 +1,25 @@
+#include <conio.h>
+#include <string.h>
+main (void)
+{
+int dlugosc;
+char *lancuch;
+clrscr()
+;
+lancuch="Adam Nowak";
+dlugosc=strlen(lancuch);
+printf("Lancuch '%s' ma: %d znaków 
+\
+n",lancuch, dlugosc);
+printf("Pierws
+za litera ³añcucha to: %c 
+\
+n",lancuch[0]);
+printf("Ostatnia litera ³añcucha to: %c 
+\
+n",lancuch[dlugosc
+-
+1]);
+getch();
+return 0 ;
+} 
