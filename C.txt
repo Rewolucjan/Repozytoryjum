@@ -1,0 +1,21 @@
+#include <stdio.h>
+#define MAX 30
+int main(void)
+{
+	char imie[MAX], nazwisko[MAX];
+	printf("podaj imie, jakie chcialbys wyswietlic na ekranie/n");
+	scanf("%s", imie);
+	printf("teraz podaj nazwisko osoby, z ktora robisz program/n");
+	scanf("%s", nazwisko);
+	for(i=0;i<MAX;i++)
+	{
+		if(imie[0]=='a');
+		printf("imie zaczyna sie na a\n");
+		else
+		printf("%c %c\n", imie[i] nazwisko[i]);
+	}
+	if(i=0)
+	else getchar();
+	return 0;
+}
+	
