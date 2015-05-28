@@ -16,6 +16,6 @@ int main(void)
 	}
 	if(i=0)
 	else getchar();
-	return 0;
+	return 1;
 }
 	
