@@ -12,7 +12,7 @@ printf("Lancuch '%s' ma: %d znaków
 \
 n",lancuch, dlugosc);
 printf("Pierws
-za litera ³añcucha to: %c 
+za litera ³añcucha ..to: %c 
 \
 n",lancuch[0]);
 printf("Ostatnia litera ³añcucha to: %c 
