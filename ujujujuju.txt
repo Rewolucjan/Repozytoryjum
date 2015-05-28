@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+main (void)
+{
+char znak
+;
+int kod;
+clrscr()
+;
+printf("Wciœnij znak na klawiaturze: 
+\
+n");
+scanf("%c",&znak)
+;
+printf("Kod wciœniêtego znaku to: %d 
+\
+n",znak);
+printf("Podaj kod znaku: 
+\
+n");
+scanf("%d",&kod);
+printf("Znak o podanym kodzie to: %c 
+\
+n",kod);
+getch();
+return 0 ;
+} 
