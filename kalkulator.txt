@@ -9,7 +9,7 @@ int a,b;
 /* deklaracja zmiennych ca³kowitych a i b *
 /
 int suma,roznica,iloczyn;
-float iloraz; 
+float il; 
 /* deklaracja zmiennej rzeczywistej *
 /
 clrscr();
